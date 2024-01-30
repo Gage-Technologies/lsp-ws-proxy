@@ -96,7 +96,11 @@ async fn connected(
     } else {
         &ctx.commands[0]
     };
-    tracing::info!("starting {} in {}", command[0], ctx.cwd.as_str().replace("file://", ""));
+    tracing::info!(
+        "starting {} in {}",
+        command[0],
+        ctx.cwd.as_str().replace("file://", "")
+    );
     let mut server = Command::new(&command[0])
         .args(&command[1..])
         .current_dir(ctx.cwd.as_str().replace("file://", ""))
