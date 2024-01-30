@@ -1,12 +1,12 @@
 [package]
 name = "lsp-ws-proxy"
-version = "0.9.0-rc.4"
-authors = ["kazk <kazk.dev@gmail.com>"]
+version = "0.9.0"
+authors = ["kazk <kazk.dev@gmail.com>", "sam ulrich"]
 edition = "2018"
 license = "MIT"
 description = "WebSocketify any Language Server"
-homepage = "https://github.com/qualified/lsp-ws-proxy"
-repository = "https://github.com/qualified/lsp-ws-proxy"
+homepage = "https://github.com/gage-technologies/lsp-ws-proxy"
+repository = "https://github.com/gage-technologies/lsp-ws-proxy"
 readme = "README.md"
 keywords = ["lsp", "websocket"]
 categories = ["command-line-utilities"]
